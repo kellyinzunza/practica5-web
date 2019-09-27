@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="center">
+        <h3>Workshop Registration</h3>
+
+        <div>
+            <form>
+                <input type="text_search" id="seach_txt" name="search" placeholder="Search..">
+            </form>
+            <button id="search_btn" class="search-btn">Seach</button>
+
+            <div class="users" id="oneUser"></div>
+
+            <form id="formulario">
+                <label for="package">Workshops</label>
+                <select id="workshops" name="workshop">
+                    <option value="Matlab Workshop">Matlab Workshop</option>
+                    <option value="Arduino Workshop">Arduino Workshop</option>
+                    <option value="AutoCad Workshop">AutoCad Workshop</option>
+                </select>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Email">
+
+                <label for="password">Password</label>
+                <input type="text" id="password" name="password" placeholder="Password">
+
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="firstname" placeholder="First name">
+
+                <label for="lastname">Last Name</label>
+                <input type="text" id="last_name" name="lastname" placeholder="Last name..">
+
+                <input type="submit" value="Submit" id="submit">
+
+            </form>
+        </div>
+        <hr>
+        <div class="users" id="list"></div>
+    </div>
+
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+
+</html>
